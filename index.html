@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>JMail</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Icona JMail -->
+        <div class="container">
+            <header>
+                <img class="logo" src="img/mail-icon.png" width="100px" alt="mailbox-icon">
+                <h2>
+                    <span class="j">J</span>Mail
+                </h2>
+            </header>
+            <main>
+                <!-- Ricerca e Info -->
+                <div class="search-box">
+                    <form action="index.html" method="post">
+                        <input id="search-bar" type="text" name="search" value="" placeholder="Search">
+                        <button type="submit" name="go">&#x1f50d;</button>
+                    </form>
+                </div>
+                <div class="info">
+                    You have <span class="badge">30</span> unread e-mails!
+                </div>
+                <!-- Mail List -->
+                <div class="inbox">
+                    <ul>
+                        <li>
+                            <input type="checkbox" name="check" value="">
+                            <span class="subject">Oggetto e-mail</span>
+                            <span class="contenuto">- testo della mail</span>
+                        </li>
+
+                        <li class="unread">
+                            <input type="checkbox" name="check" value="">
+                            <span class="subject">Oggetto e-mail</span>
+                            <span class="contenuto">- testo della mail</span>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" name="check" value="">
+                            <span class="subject">Oggetto e-mail</span>
+                            <span class="contenuto">- testo della mail</span>
+                        </li>
+                        
+                        <li>
+                            <input type="checkbox" name="check" value="">
+                            <span class="subject">Oggetto e-mail</span>
+                            <span class="contenuto">- testo della mail</span>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </main>
+
+            <footer>
+                powered by
+                <span>
+                    <span class="j">J</span>Mail
+                </span>
+            </footer>
+        </div>
+
+    </body>
+</html>
